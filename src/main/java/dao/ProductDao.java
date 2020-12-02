@@ -10,7 +10,8 @@ public class ProductDao implements iProductDao {
     private final DBConnection dbConnection = new DBConnection();
     private static final String INSERT_USERS_SQL = "insert into users" + "(name,email,country) values" +"(?,?,?);";
     private static final String SELECT_USER_BY_ID = "select * from products where id =?";
-    private static final String SELECT_ALL_PRODUCTS = "select * from products";
+    private static final String SELECT_ALL_PRODUCTS = "select * from products order by discount DESC LIMIT 3";
+    private static final String SELECT_ALL_PRODUCTS_LIMIT = "select * from products";
     private static final String DELETE_USERS_SQL = "delete from users where id = ?;";
     private static final String UPDATE_USERS_SQL = "update users set name = ?,email= ?, country =? where id = ?;";
 
