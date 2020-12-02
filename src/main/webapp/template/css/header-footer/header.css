@@ -1,0 +1,32 @@
+
+a:focus, a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+.infor {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin: 15px 20px 0 0;
+    /*line-height: 20px;*/
+}
+h3 {
+    font-family:"Times New Roman";
+    font-weight: bolder;
+    /*font-size: 50px;*/
+    color: red;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 5px darkorange;
+    padding-bottom: 0px;
+    margin: 0;
+    /*width: 49%;*/
+}
+.sign {
+    margin-top: 100px;
+}
+.cart {
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #1b1e21
+}

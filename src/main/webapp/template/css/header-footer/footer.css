@@ -1,0 +1,10 @@
+footer {
+    background: #b1dfbb;
+    font-family: "Times New Roman";
+    text-justify: auto;
+    font-size: large;
+}
+footer a {
+    color: blue;
+    text-decoration: none;
+}

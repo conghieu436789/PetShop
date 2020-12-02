@@ -1,0 +1,39 @@
+.discount {
+    position: absolute;
+    border: 1px solid #dee2e6;
+    /*width: 5%;*/
+    height: 9%;
+    background: red;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 4px;
+}
+.price {
+    text-decoration: line-through;
+}
+.realPrice {
+    color: red;
+}
+.cardBorder{
+    border: 2px solid blue;
+}
+.cardBody {
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+.card-footer {
+    background: #b1dfbb;
+}
+.text-muted {
+    color: yellow;
+}
+.link {
+    margin-top: 10px;
+    background: orchid;
+}
+.custom-select {
+    height: calc(1.5em + 0.75rem + 10px);
+}
+
