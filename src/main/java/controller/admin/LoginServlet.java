@@ -1,4 +1,4 @@
-package controller.administrator;
+package controller.admin;
 
 import dao.DBConnection;
 import dao.admin.LoginDao;
